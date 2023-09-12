@@ -8,7 +8,7 @@
 int main(void)
 {
 char hoss;
-for (hoss = 'a' ; hoss < 'z'; hoss++)
+for (hoss = 'a' ; hoss <= 'z'; hoss++)
 {
 if (hoss == 'e' || hoss == 'q')
 {
