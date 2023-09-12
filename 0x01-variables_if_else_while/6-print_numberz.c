@@ -8,11 +8,11 @@
 int main(void)
 {
 int moa;
-for (moa = 0; moa < 10; moa++)
+for (moa = '0'; moa <= '9' ; moa++)
 {
-printf("%d", moa);
+putchar(moa);
 
 }
-printf("\n");
+putchar('\n');
 return (0);
 }
