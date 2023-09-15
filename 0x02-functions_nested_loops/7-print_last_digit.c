@@ -6,7 +6,17 @@
  *
  * Return: 0
 */
-int print_last_digit(int n)
+int print_last_digit(int digit)
 {
-return (print_last_digit(n));
+if (digit < 0)
+{
+digit = -1 * (digit % 10);
+}
+else
+{
+digit = digit % 10;
+}
+_putchar(digit + '0');
+
+return (digit);
 }
