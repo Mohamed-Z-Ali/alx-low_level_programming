@@ -15,6 +15,6 @@ putchar ((j / 10) + '0');
 }
 putchar ((j % 10) + '0');
 }
-}
 putchar ('\n');
+}
 }
