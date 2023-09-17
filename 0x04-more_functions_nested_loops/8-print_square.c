@@ -21,6 +21,5 @@ putchar('#');
 }
 putchar('\n');
 }
-putchar('\n');
 }
 }
