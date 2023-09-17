@@ -12,7 +12,7 @@ unsigned int d = n;
 
 if (n < 0)
 {
-putchar('-');
+_putchar('-');
 d = -d;
 }
 
@@ -21,6 +21,6 @@ if (d > 9)
 print_number(d / 10);
 }
 
-putchar((d % 10) + '0');
+_putchar((d % 10) + '0');
 
 }
