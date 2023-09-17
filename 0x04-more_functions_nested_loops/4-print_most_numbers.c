@@ -5,14 +5,14 @@
 */
 void print_most_numbers(void)
 {
-int a;
-for (a = 0; a <= 9; a++)
+int num;
+for (num = 0; num <= 9; num++)
 {
-putchar (a + '0');
-if (a == 2 || a == 4)
+putchar (num + '0');
+if (num == 2 || num == 4)
 {
 continue;
 }
-putchar ('\n');
 }
+putchar ('\n');
 }
