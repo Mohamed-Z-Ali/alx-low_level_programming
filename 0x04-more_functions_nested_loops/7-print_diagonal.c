@@ -22,7 +22,7 @@ if (d > 1)
 putchar(' ');
 }
 }
-putchar('\\')
+putchar('\\');
 putchar('\n');
 }
 }
