@@ -17,7 +17,7 @@ d = -d;
 }
 
 if (d > 9)
-print_number(d / 10);
+putchar((d / 10) + '0');
 
 
 putchar((d % 10) + '0');
