@@ -4,16 +4,18 @@
 *@s: String to reverse
 *Return: Nothing
 */
-void rev_string(char *s)
+/**
+*swap_char - swap two characters
+*@a: first character
+*@b: second character
+*Return: nothing
+*/
+
+void swap_char(char *a, char *b)
 {
-int i = 0, length;
-length = _strlen(s) - 1;
-while (length > i)
-{
-swap_char(s + length, s + i);
-i++;
-length--;
-}
+char tmp = *a;
+*a = *b;
+*b = tmp;
 }
 
 /**
@@ -31,16 +33,15 @@ inc++;
 return (inc);
 }
 
-/**
-*swap_char - swap two characters
-*@a: first character
-*@b: second character
-*Return: nothing
-*/
 
-void swap_char(char *a, char *b)
+void rev_string(char *s)
 {
-char tmp = *a;
-*a = *b;
-*b = tmp;
+int i = 0, length;
+length = _strlen(s) - 1;
+while (length > i)
+{
+swap_char(s + length, s + i);
+i++;
+length--;
+}
 }
