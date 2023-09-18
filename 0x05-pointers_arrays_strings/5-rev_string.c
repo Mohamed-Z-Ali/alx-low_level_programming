@@ -1,9 +1,5 @@
 #include "main.h"
-/**
-*rev_string - Reverse a string
-*@s: String to reverse
-*Return: Nothing
-*/
+
 /**
 *swap_char - swap two characters
 *@a: first character
@@ -33,6 +29,11 @@ inc++;
 return (inc);
 }
 
+/**
+*rev_string - Reverse a string
+*@s: String to reverse
+*Return: Nothing
+*/
 
 void rev_string(char *s)
 {
